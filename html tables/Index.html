@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice 2020</title>
+</head>
+
+<body>
+    <!-- table trial -->
+    <h1>First Gen Pokeman Chart</h1>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Image</th>
+                <th>Name</th>
+                <th>Type</th>
+                <th>Evolve to</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td></td>
+                <td>Bulbasaur</td>
+                <td>Grass/Poison</td>
+                <td>Ivysaur</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>Charmander</td>
+                <td>Fire</td>
+                <td>Chamelon</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>Squirtle</td>
+                <td>Water</td>
+                <td>Wartortle</td>
+            </tr>
+        </tbody>
+    </table> <br>
+    <!-- Input Trials -->
+    <input type="button">
+    <input type="color">
+    <input type="radio">
+    <input type="date">
+    <input type="text">
+    <br>
+    <!-- login form trial  -->
+    <h1>Login</h1>
+    <form action="">
+        <input type="text" placeholder="Username">
+        <input type="password" placeholder="password">
+        <input type="submit">
+    </form>
+    <!-- Names are used to recall data -->
+    <h1>Login with name Attribute</h1>
+    <form action="">
+        <input name="username" type="text" placeholder="Username">
+        <input name="password" type="password" placeholder="password">
+        <input type="submit">
+    </form>
+    <!-- Using labels to add cptions to our individual forms;
+    it makes our form accessible -->
+    <h1>Login Form with Labels</h1>
+    <form action="">
+        <label>
+            Username:
+            <input type="text" placeholder="Username">
+        </label>
+        <label>
+            Password:
+            <input type="text" placeholder="Password">
+            <input type="submit">
+        </label>
+    </form>
+    <!-- Labels separate from input; the "for" and "id" attribute
+    connects the label and the input-->
+    <h1>Login Form with Labels</h1>
+    <form action="">
+        <label for="username">
+            Username:
+        </label>
+        <input id="username" type="text" placeholder="Username">
+        <label for="password">
+            Password:
+        </label>
+        <input id="password" type="text" placeholder="Password">
+        <input type="submit">
+    </form>
+
+    <!-- additional inputs; "the radio button"(just like the check box,
+        "the select tag"; used to get drop down menus and
+        "the textarea tag"; is used to create text inputs that
+        are multiple lines long) -->
+    <!-- input plus for preferred foods -->
+    <h1>Input Plus</h1>
+    <form action="">
+        <label for="pizza">Pizza</label>
+        <input name="preferred food" id="pizza" type="radio" 
+        value="Pizza">
+        <label for="grilled chicken"></label>
+        <input name="preferred food" id="grilled chicken" type="radio"
+        value="grilled chicken">
+        <!-- using "The Select Tag:used to get drop down menus" -->
+        <select name="mood" id="">
+            <option value="Happy">:)</option>
+            <option value="Sad">:(</option>
+            <option value="Neutral">:|</option>
+        </select>
+        <!-- "the textarea tag"; is used to create text inputs that
+        are multiple lines long) -->
+        <textarea name="names" id="" cols="30" rows="10"></textarea>
+        <button>click</button>
+    </form>
+</body>
+
+</html>
